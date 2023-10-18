@@ -14,11 +14,15 @@ body{
     >.navigation{
         position: relative;
         height: 500px;
-        width: 300px;
+        width: 70px;
         background: #2b343b;
         box-shadow: 10px 0 0 #4187f6;
         border-left: 10px solid #2b343b;
         overflow-x:hidden;
+        transition: width 0.5s;
+        &:hover{
+            width: 300px;
+        }
         >ul{
             position: absolute;
             top: 0;left: 0;
