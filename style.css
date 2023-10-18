@@ -68,6 +68,30 @@ body{
             }
             >li.active{
                 background: #4187f6;
+                >a{
+                    &::before{
+                        content: '';
+                        position: absolute;
+                        top: -30px;
+                        right: 0;
+                        width: 30px;
+                        height: 30px;
+                        background: #2b343b;
+                        border-radius: 50%;
+                        box-shadow: 15px 15px 0 #4187f6;
+                    }
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        bottom: -30px;
+                        right: 0;
+                        width: 30px;
+                        height: 30px;
+                        background: #2b343b;
+                        border-radius: 50%;
+                        box-shadow: 15px -15px 0 #4187f6;
+                    }
+                }
             }
         }
     }
