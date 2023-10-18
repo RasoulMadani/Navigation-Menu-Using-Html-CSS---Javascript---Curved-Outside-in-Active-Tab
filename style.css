@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    /* background: #232c33; */
+    background: #232c33;
     >.navigation{
         position: relative;
         height: 500px;
